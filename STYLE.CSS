@@ -1,0 +1,171 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Helvetica Neue",Arial,sans-serif; 
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    padding:20px 0;
+    border-bottom:1px solid rgb(200,200,200);
+}
+
+.center {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    max-width:1100px;
+    margin:auto;
+}
+
+.logo {
+    color:#3a8b3a;
+    font-size: 20px;
+    margin-left: 10px; 
+}
+
+.logo h1 {
+    font-weight:normal;
+    font-size: 0px 0px;
+
+}
+
+.menu {
+    width:80%;
+    text-align:right;
+    Margin-left:70px;
+}
+
+.menu a {
+    color:#072741;
+    font-size:14px;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.menu .btn-menu {
+    display:inline-block;
+    padding:9px 18px;
+    color:#126519;
+    border-radius:6px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #126519;
+    color:white;
+}
+
+.figure {
+    background-image: url("flores1600.jpg");
+    background-attachment: fixed;
+    opacity: 0.85;
+    width:100%;
+    height:65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figure h1 {
+    color: azure;
+    text-align:center ;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size:40px;
+}
+
+section.main {
+    background-image:url(Design\ sem\ nome.png);
+    padding:120px 0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta {
+    width:100%;
+    margin:60px 0;
+    text-align:center;
+
+}
+.main__cta h2 {
+    color:rgb(113, 190, 113)
+}
+.main__ctap {
+    color:gray
+}
+
+.diferenciais {
+    display:flex;
+    flex-wrap:wrap;
+
+}
+.diferencial-single {
+    border-radius:10px;
+    background-color: rgb(189, 245, 189);
+    width:23%;
+    margin-right:2%;
+    padding: 50px 20px;
+}
+
+.diferencial-single a {
+    color:#32a852;
+    margin:10px 0;
+    font-size:17px;
+}
+
+.diferencial-single p{
+    color:gray;
+    font-size:14px;
+    line-height:30px;
+
+}
+.diferencial-single:hover{
+background-color: #126519;
+color:white
+}
+
+.sobre{
+    padding: 80px 0;
+    background-color: #39a542;
+    
+}
+
+.chamada-sobre{
+    width:100%;
+    text-align: center;
+    display: block;
+}
+
+.chamada-sobre h2{
+    color: rgb(189, 245, 189);
+}
+
+.chamada-sobre p{
+    font-size:13px;
+    color:gray;
+    margin:10px 0;
+}
+
+.conteudo-sobre{
+
+    align-items: center;
+    max-width:1100px;
+    margin:auto;
+    text-align:center;
+    color:#fff;
+}
+
+.conteudo-sobre p{
+    margin:0 20px;
+}
+
+@media screen and (max-width:768px){
+    .diferencial-single{
+        width:100%;
+        margin-bottom: 25px;
+    }
+}
